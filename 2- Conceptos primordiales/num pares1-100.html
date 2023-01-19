@@ -1,0 +1,41 @@
+<h1>Programa Numero pares del 1 al 100</h1>
+
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    
+    var contador=1;
+    
+
+    while(contador<=100){
+
+        // el % sirve para ver si el numero es par o impar (es un modulo)
+
+        if(contador % 2==0){
+            imprimir(contador)
+        }     
+        contador++
+    }
+
+    // DE LA MANERA DEL PROFESOR 
+    var contador = 2;
+    while(contador <= 100) {
+        imprimir(contador);
+        contador = contador + 2; // incrementar de dos en dos
+    }
+    
+    imprimir("fin");
+    
+
+</script>

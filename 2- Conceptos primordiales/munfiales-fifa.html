@@ -1,0 +1,27 @@
+<h1>Programa mundial de la fifa</h1>
+
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var yearmundial = 1930;
+    var limite = parseInt(prompt("Ingresa el anho limite"));
+
+    while(yearmundial<= limite){
+
+    imprimir("Hubo mundial de la fifa en el ahno" + yearmundial);
+    yearmundial=yearmundial+4;
+    }
+    imprimir("<h1>fin</h1>")
+
+</script>

@@ -1,0 +1,27 @@
+para los distintos navegadores se debe poner la codificacion <meta charset="UTF-8"> con el fin de que reconozca palabras con tildes
+
+cosas con comillas son reconocidos por el java, como texto (es un strim), sin eso los reconoce como numeros normales (para hacer operaciones)
+
+se pueden usar variables para poner saltos de lineas
+
+Tener en cuenta == es para comparar resultados mientras en = es para numeros
+
+function (para crear funciones que tral vez necesitemos despues, despues del parentesisi, se pone corchetes para definir como funciona, la funcion)
+
+document.querySelector("") = toma informacion escrita en html por el tag de <input/> y lo trae al apartado de java
+
+para tomar datos como numeros del <input> agregar el .value
+
+button.onclick == para llamar alguna accion programada dandole click al boton
+
+En los arrays, para llamar un elemento almacenado en el, se debe tener en cuenta que empiezan a almacenarse desde el numero 0, Se llaman teniendo en cuenta el nombre de el mismo mas [0]
+
+en arrays se puede poner el comando "nombredelarray".lenght para que recorra, hasta la ultima posicion del array
+
+se pueden meter datos en los arrays con la funcion "nombredelarray".push
+
+console.log para ver los valores de las varibles en el apartado de desarrollador en el navegador
+
+Tener en cuenta que las variables dentro de una funcion definida, se puede repetir fuera de ella
+
+Tener en cuenta para el uso de cancelacion de ingreso de datos repetidos meter la condicion de "falso" en el ciclo

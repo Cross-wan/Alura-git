@@ -1,0 +1,21 @@
+<h1>= para los titulos
+<p>= para los parrafos
+<strong>= para poner negrillas
+<em>= para emfasis (italico)
+<tittle>= nobre en el navegador
+<link> rel (poner a buscar hoja de estilo)(para relacionar las etiquietas con el estilo deseado href(nombre del archivo)
+codigo para colores 0 el mas oscuro F el mas claro y se van sumando teniendo en cuenta que las seis letras representan rrggbb
+id: solo se usan una vez 
+class: se pueden volver a utilizar
+hover al lado de la etiqueta id o class se usa para hacer cambios cuando el mouse esta sobre el item
+<label> e <input> van juntos
+jerarquicamente el cc tiene una jerarquia de esta manera ID > CLASS > ETIQUETA
+Para formularios con campos obligatorios, se le agrega required
+En el css transforn, es muy util, para dar personalidad a la pag
+En css esta float para separar objetos(imagenes)
+En algunos casos es necesario poner la linea de imagen al lado de </ul> para que el inline-bloack funcione mejor
+Selectores avanzados
+> Solo para seleccionar los "hijos" de la primera relacion
++ para seleccionar a los "hermanos" (los que estan en el mismo nivel) se relaciona "elemento anterior"+lo que quieres destacar
+:not() para seleccionar todo menos lo dentro de los parrafos
+text o box-shadow se usa para poner sombras en los items necesarios los parametros son: eje vert eje hor difuminacion, expancion, color

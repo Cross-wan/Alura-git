@@ -1,0 +1,55 @@
+<meta charset="UTF-8">
+<h1>PROGRAMA ICM</h1>
+
+
+<script>
+    function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    }  
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    function calcularIMC(peso,altura) {
+        imc = peso/(altura^2);
+        return(imc);
+    }
+
+    var nombre = prompt("Esccriba su nombre");
+    var pesoinf = prompt(nombre + ", diga su peso");
+    var alturainf = prompt(nombre + ", diga su altura");
+    var imcDone = calcularIMC(pesoinf,alturainf)
+    imprimir(nombre + ", el calculo de su imc es:" + imcDone);
+
+//mejora dl programa de IMC 
+
+if (imcDone < 18.5 ){
+
+    imprimir("IMC bajo lo recomendado")
+}
+
+if (imcDone <= 18.5 ){
+
+    if (imcDone >25){
+
+        imprimir("IMC Invertavlo normales")
+    }
+}
+
+if (imcDone>= 25 ){
+
+    if (imcDone <30){
+
+        imprimir("IMC considerado como sobrepeso")
+    }
+}
+
+if (imcDone>=30){
+    imprimir("IMC considerado como obesidad")
+
+}
+</script>
+

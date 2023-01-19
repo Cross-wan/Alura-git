@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<script>
+
+    var inicioDeSesionRegistrado = "a";
+    var contrasenhaRegistrada = "a1";
+
+    
+
+    var intentos = 1
+
+    //SIEMPRE TENER EN CUENTA QUE PARA CUANDO SE VA A PEDIR INGRESAR INFORMACION VARIAS VECES
+    //METERLAS EN EL LOOP, PARA QUE SIGAN SALIENDO LAS VENTANAS
+
+    while(intentos<=3){
+        var inicioDeSesionIngresado = prompt("Ingrese su usuario");
+        var contrasenhaIngresada = prompt("Ingrese su contraseña");
+
+        if( inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada ) {
+        alert("Bienvenido al sistema " + inicioDeSesionIngresado);
+        break
+        }
+       else {
+        alert("inicio de sesión inválido. Favor intente de nuevo");
+         }
+    intentos++
+    }
+</script>

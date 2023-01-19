@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+<h1>PROGRAMA ICM</h1>
+
+
+<script>
+    function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    }  
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    function calcularIMC(peso,altura) {
+        imc = peso/(altura^2);
+        return(imc);
+
+    }
+    pesoCa = 71
+    alturaCa = 1.72
+    imcCamilo = pesoCa/(alturaCa^2);
+    imprimir("El imc de camilo es: " + imcCamilo);
+
+
+
+    pesoAn = 60
+    alturaAn = 1.8
+    //imcCamilo = pesoCa/(alturaCa^2)
+    imcAn= calcularIMC(pesoAn,alturaAn);
+    imprimir("El imc de Andres es: " + imcAn);
+
+    imprimir("Calculo del promedio");
+    var camImc = calcularIMC(71,1.72);
+    var andrImc = calcularIMC(60,1.8);
+    imprimir("el promedio de el imc de camilo y andres es: "+ (camImc+andrImc)/2);
+
+</script>

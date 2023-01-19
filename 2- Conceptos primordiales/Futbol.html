@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+<h1>PROGRAMA PUNTOS DE EQUIPO DE FUTBOL</h1>
+
+
+<script>
+    function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    }  
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var vict = parseInt(prompt("Esccriba cantidad de victorias"));
+    var emp = parseInt(prompt("Esccriba cantidad de empates"));
+
+    var totalP= (vict * 3 + emp);
+    
+    imprimir("El total de puntos es: " + totalP);
+
+//Trabajando condiciones
+    if(totalP>25){
+    imprimir("El equipo esta mejor que el año pasado")
+}
+    if(totalP<25){
+    imprimir("El equipo esta peor que el año pasado")
+}
+    if(totalP==25){
+    imprimir("El equipo esta igual que el año pasado")
+}
+
+</script>
